@@ -1,0 +1,38 @@
+.ubicacion-estrategica-contenedor {
+  background-image: url("/public/UbicacionEstrategica/ubicación estratégica.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 7.8125vw 23.4375vw;
+  text-align: center;
+}
+
+.ubicacion-estrategica-contenedor h3 {
+  font-size: 9.6rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.ubicacion-estrategica-contenedor p {
+  font-size: 3.2rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 102px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ubicacion-estrategica-contenedor {
+    padding: 25vw 8vw;
+    background-position: -130px;
+  }
+  .ubicacion-estrategica-contenedor h3 {
+    font-size: clamp(3.2rem, 4.4vw, 9.6rem);
+    margin-bottom: 15px;
+  }
+
+  .ubicacion-estrategica-contenedor p {
+    font-size: clamp(1.6rem, 4.4vw, 3.2rem);
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"marca": "Hyundai",
+		"modelo": "Elantra"
+	},
+	{
+		"id": 2,
+		"marca": "Jeep",
+		"modelo": "Renegade"
+	},
+	{
+		"id": 3,
+		"marca": "Mini",
+		"modelo": "Countryman"
+	},
+	{
+		"id": 4,
+		"marca": "Nissan",
+		"modelo": "Versa"
+	},
+	{
+		"id": 5,
+		"marca": "Toyota",
+		"modelo": "Corolla"
+	},
+	{
+		"id": 6,
+		"marca": "Volkswagen",
+		"modelo": "Taos"
+	}
+]

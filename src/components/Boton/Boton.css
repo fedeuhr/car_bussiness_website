@@ -1,0 +1,43 @@
+.boton {
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2.4rem;
+  padding: 22px 65px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.boton-normal {
+  border: 3px solid #024873;
+  color: #002f4b;
+  transition: all 0.1s;
+}
+
+.boton-normal:hover {
+  border: 3px solid #024873;
+  color: #fff;
+  background-color: #024873;
+  transition: all 0.4s;
+}
+
+.boton-invertido {
+  border: 3px solid #fff;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.boton-invertido:hover {
+  border: 3px solid #fff;
+  color: #024873;
+  background-color: #fff;
+  transition: all 0.4s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .boton {
+    font-size: clamp(1.6rem, 4.6vw, 2.4rem);
+    width: 100%;
+  }
+}

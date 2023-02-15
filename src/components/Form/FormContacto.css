@@ -1,0 +1,82 @@
+.contacto-contenedor h3 {
+  font-size: 6.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.contacto-contenedor p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.contacto-contenedor__select {
+  width: 100%;
+}
+
+.contacto-contenedor__input {
+  margin-bottom: 4.5rem;
+}
+
+.contacto-contenedor__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.5rem;
+}
+
+.contacto-contenedor__inputs input {
+  width: 48%;
+}
+
+.contacto-contenedor__textarea {
+  width: 100%;
+}
+
+.contacto-contenedor__boton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5.4rem;
+}
+
+.PhoneInputCountry {
+  display: none !important;
+}
+
+.PhoneInputInput {
+  width: 100% !important;
+}
+
+.contacto-contenedor__input--error {
+  border-bottom: 1px solid red;
+}
+
+.contacto-contenedor__input__error {
+  font-size: 14px;
+  color: red;
+}
+
+.contacto-contenedor__inputtel {
+  width: 98%;
+}
+
+.contacto-contenedor__inputname {
+  width: 100%;
+}
+
+.contacto-contenedor__inputname input {
+  width: 94%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contacto-contenedor h3 {
+    font-size: clamp(3.2rem, 6vw, 6.4rem);
+    margin-top: 4rem;
+    margin-bottom: 1.7rem;
+  }
+  .contacto-contenedor p {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    margin-bottom: 3rem;
+  }
+}

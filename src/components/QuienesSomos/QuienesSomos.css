@@ -1,0 +1,112 @@
+.quienes-somos-contanedor {
+  padding-top: 4.3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+.quienes-somos-contanedor__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quienes-somos-contanedor__contenido h1 {
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 85px;
+  margin-bottom: 27px;
+}
+
+.quienes-somos-contanedor__contenido p {
+  font-size: 1.6rem;
+}
+
+.quienes-somos-contanedor__contenido__atributos {
+  list-style: none;
+}
+
+.quienes-somos-contanedor__contenido__atributos li {
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.2rem;
+}
+
+.quienes-somos-contanedor__contenido__atributos li:last-of-type {
+  margin-bottom: 0;
+}
+
+.quienes-somos-contanedor__contenido__atributos__borde {
+  background-color: var(--strong-blue);
+  height: 3.6rem;
+  width: 0.6rem;
+  border-radius: 9px;
+  margin-right: 2.5rem;
+}
+
+.quienes-somos-contanedor__contenido__imagen {
+  position: relative;
+  width: 100%;
+}
+
+.quienes-somos-contanedor__contenido__imagen img {
+  width: 100%;
+}
+
+.quienes-somos-contanedor__contenido__imagen__fondo {
+  background-color: #e8eeef;
+  position: absolute;
+  top: -5%;
+  left: 20%;
+  z-index: -1;
+  width: 90%;
+  height: 110%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .quienes-somos-contanedor {
+    grid-template-columns: 1fr;
+  }
+
+  .quienes-somos-contanedor__contenido h1 {
+    font-size: clamp(3.2rem, 7vw, 6.4rem);
+    margin-bottom: 11px;
+  }
+
+  .quienes-somos-contanedor__contenido p {
+    margin-bottom: 1.8rem;
+  }
+
+  .quienes-somos-contanedor__contenido__imagen {
+    margin-bottom: 3.4rem;
+  }
+
+  .quienes-somos-contanedor__contenido__atributos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.3rem;
+  }
+
+  .quienes-somos-contanedor__contenido__atributos li {
+    font-size: clamp(1.4rem, 2.9vw, 2.4rem);
+    margin: 0;
+    margin-right: 4px;
+  }
+
+  .quienes-somos-contanedor__contenido__atributos li:last-of-type {
+    margin-right: 0;
+  }
+
+  .quienes-somos-contanedor__contenido__atributos__borde {
+    height: clamp(2.6rem, 2.9vw, 3.6rem);
+    width: clamp(0.46rem, 2.9vw, 0.6rem);
+    margin-right: clamp(0.8rem, 2.9vw, 2.5rem);
+  }
+
+  .quienes-somos-contanedor__contenido__imagen__fondo {
+    left: 14%;
+    overflow: none;
+  }
+}

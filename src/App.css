@@ -1,0 +1,100 @@
+:root {
+  --dark-blue: #002f4b;
+  --strong-blue: #77abd9;
+  --white: #e8eeef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--strong-blue);
+  color: #000;
+}
+::-moz-selection {
+  background-color: var(--strong-blue);
+  color: #000;
+}
+
+body {
+  scrollbar-width: thin;
+}
+
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+  width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-header);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(189, 189, 189);
+
+  border-radius: 20px;
+  border: 4px solid #fff;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #b1b1b1;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #8f8f8f;
+}
+
+html {
+  font-size: 62.5%;
+  /*1rem = 10px*/
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+  border: none;
+  border-bottom: 1px solid #024873;
+  outline: none;
+  padding: 12px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::placeholder,
+select,
+textarea::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #002f4b;
+}
