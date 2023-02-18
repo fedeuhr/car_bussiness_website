@@ -1,6 +1,7 @@
 {
   "name": "car-rental",
   "version": "0.1.0",
+  "homepage": "https://fedeuhr.github.io/car_bussiness_website",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
@@ -16,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

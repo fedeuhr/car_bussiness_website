@@ -7,7 +7,7 @@ import PhoneInput from "react-phone-number-input";
 import validate from '../../helpers/validate';
 
 const FormContacto = ({ submitForm }) => {
-  const { handleChange, handleSubmit, values, errors, isSubmitting } =
+  const { handleChange, values, errors, isSubmitting } =
   ValidateForm(submitForm,validate);
   
 

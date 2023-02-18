@@ -309,10 +309,6 @@ function remove_zeros(string) {
   return string;
 }
 
-function area_code_exist(elem) {
-  return area_codes.includes(remove_zeros(elem));
-}
-
 export default function Validate(values) {
   let errors = {};
   var pattern = new RegExp(
