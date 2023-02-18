@@ -6,4 +6,4 @@
 ![alt text](https://github.com/fedeuhr/car_bussiness_website/blob/main/web_mockup_carr_bussiness.jpg)
 
 ## 🔗 Links
-[![Sitio ->]]([https://car_bussiness_website.com/](https://fedeuhr.github.io/car_bussiness_website/))
+Sitio Web --> https://fedeuhr.github.io/car_bussiness_website/
