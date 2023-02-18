@@ -11,8 +11,8 @@ const Home = () => {
     <div>
         {
           window.innerWidth <= 1024
-            ? <video src="./header/video_banner-mobile.mp4" autoPlay loop muted playsInline className="bannerVideo"/>
-            : <video src="./header/video_banner.mp4" autoPlay loop muted playsInline className="bannerVideo"/>
+            ? <video src="car_bussiness_website/header/video_banner-mobile.mp4" autoPlay loop muted playsInline className="bannerVideo"/>
+            : <video src="car_bussiness_website/header/video_banner.mp4" autoPlay loop muted playsInline className="bannerVideo"/>
         }
         
       </div>
