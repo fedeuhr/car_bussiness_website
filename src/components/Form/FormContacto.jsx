@@ -2,7 +2,6 @@ import React from 'react'
 import Boton from '../Boton/Boton'
 import "./FormContacto.css"
 import autosJSON from "../../datosAutos/autos.json"
-import Slide from 'react-reveal/Slide';
 import ValidateForm from '../../helpers/validateForm';
 import PhoneInput from "react-phone-number-input";
 import validate from '../../helpers/validate';
@@ -14,13 +13,13 @@ const FormContacto = ({ submitForm }) => {
 
   return (
     <div className='container contacto-contenedor'>
-      <Slide bottom>
+      <div>
       <h3>Contacto</h3>
         <p>Nuestro proceso de inversión es muy simple
           <br/><strong>¡Tu vehículo preferido está a unos clics de distancia!</strong>
         </p>
         <form>
-        <Slide bottom cascade>
+        <div>
           <div className='contacto-contenedor__inputs'>
           <div className='contacto-contenedor__inputname'>
             <input className={`${errors.name && "contacto-contenedor__input--error"}`} type="text" placeholder='Nombre' name="name" id="" value={values.name} onChange={handleChange} />
@@ -75,11 +74,11 @@ const FormContacto = ({ submitForm }) => {
           <div className='contacto-contenedor__boton'>
             <Boton tipo={"boton"} type={"submit"} >Enviar</Boton>
           </div>
-          </Slide>
+          </div>
           <p>{isSubmitting && Object.keys(errors).length === 0 ? "Su mensaje fue enviado Correctamente!" : ""}</p>
           
         </form>
-        </Slide>
+        </div>
     </div>
   )
 }

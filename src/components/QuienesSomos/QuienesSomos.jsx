@@ -1,12 +1,10 @@
 import React from 'react'
 import "./QuienesSomos.css"
-import Fade from "react-reveal/Fade";
 
 const QuienesSomos = () => {
   return (
     <>
       <div className='container quienes-somos-contanedor'>
-          <Fade big>
         <div className='quienes-somos-contanedor__contenido'>
           <div className='quienes-somos-contanedor__contenido__enunciado'>
             <h1>Quiénes somos</h1>
@@ -23,7 +21,6 @@ const QuienesSomos = () => {
           <img src='/QuienesSomos/quienes-somos.webp' alt='Auto' />
           <div className='quienes-somos-contanedor__contenido__imagen__fondo'></div>
         </figure>
-        </Fade>
       </div>
     </>
   )
