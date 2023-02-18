@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/car_bussiness_website/static/css/main.3289e787.css",
-    "main.js": "/car_bussiness_website/static/js/main.f364b123.js",
+    "main.js": "/car_bussiness_website/static/js/main.c55ed56f.js",
     "static/js/787.e778e39e.chunk.js": "/car_bussiness_website/static/js/787.e778e39e.chunk.js",
     "static/media/ubicación estratégica.webp": "/car_bussiness_website/static/media/ubicación estratégica.805409a033cca173d836.webp",
     "index.html": "/car_bussiness_website/index.html",
     "main.3289e787.css.map": "/car_bussiness_website/static/css/main.3289e787.css.map",
-    "main.f364b123.js.map": "/car_bussiness_website/static/js/main.f364b123.js.map",
+    "main.c55ed56f.js.map": "/car_bussiness_website/static/js/main.c55ed56f.js.map",
     "787.e778e39e.chunk.js.map": "/car_bussiness_website/static/js/787.e778e39e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3289e787.css",
-    "static/js/main.f364b123.js"
+    "static/js/main.c55ed56f.js"
   ]
 }
